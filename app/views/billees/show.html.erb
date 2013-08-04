@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>F name:</b>
+  <%= @billee.f_name %>
+</p>
+
+<p>
+  <b>L name:</b>
+  <%= @billee.l_name %>
+</p>
+
+<p>
+  <b>Phone1:</b>
+  <%= @billee.phone1 %>
+</p>
+
+<p>
+  <b>Phone2:</b>
+  <%= @billee.phone2 %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @billee.email %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @billee.location_id %>
+</p>
+
+<p>
+  <b>Photo:</b>
+  <%= @billee.photo %>
+</p>
+
+
+<%= link_to 'Edit', edit_billee_path(@billee) %> |
+<%= link_to 'Back', billees_path %>

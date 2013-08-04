@@ -1,0 +1,35 @@
+<h1>Listing billees</h1>
+
+<table>
+  <tr>
+    <th>F name</th>
+    <th>L name</th>
+    <th>Phone1</th>
+    <th>Phone2</th>
+    <th>Email</th>
+    <th>Location</th>
+    <th>Photo</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @billees.each do |billee| %>
+  <tr>
+    <td><%= billee.f_name %></td>
+    <td><%= billee.l_name %></td>
+    <td><%= billee.phone1 %></td>
+    <td><%= billee.phone2 %></td>
+    <td><%= billee.email %></td>
+    <td><%= billee.location_id %></td>
+    <td><%= billee.photo %></td>
+    <td><%= link_to 'Show', billee %></td>
+    <td><%= link_to 'Edit', edit_billee_path(billee) %></td>
+    <td><%= link_to 'Destroy', billee, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Billee', new_billee_path %>

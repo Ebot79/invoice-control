@@ -1,0 +1,45 @@
+<%= form_for(@billee) do |f| %>
+  <% if @billee.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@billee.errors.count, "error") %> prohibited this billee from being saved:</h2>
+
+      <ul>
+      <% @billee.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :f_name %><br />
+    <%= f.text_field :f_name %>
+  </div>
+  <div class="field">
+    <%= f.label :l_name %><br />
+    <%= f.text_field :l_name %>
+  </div>
+  <div class="field">
+    <%= f.label :phone1 %><br />
+    <%= f.text_field :phone1 %>
+  </div>
+  <div class="field">
+    <%= f.label :phone2 %><br />
+    <%= f.text_field :phone2 %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :location_id %><br />
+    <%= f.number_field :location_id %>
+  </div>
+  <div class="field">
+    <%= f.label :photo %><br />
+    <%= f.text_field :photo %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

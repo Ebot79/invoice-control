@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  source: MyString
+  amount: 1.5
+  less: 1.5
+  total: 
+  task_id: 1
+
+two:
+  source: MyString
+  amount: 1.5
+  less: 1.5
+  total: 
+  task_id: 1

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  billee_id: 1
+  total: 1.5
+  ordered: 2013-08-04
+  billed: 2013-08-04
+  paid: 2013-08-04
+
+two:
+  billee_id: 1
+  total: 1.5
+  ordered: 2013-08-04
+  billed: 2013-08-04
+  paid: 2013-08-04

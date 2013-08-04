@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>F name,:</b>
+  <%= @resident.f_name, %>
+</p>
+
+<p>
+  <b>L name,:</b>
+  <%= @resident.l_name, %>
+</p>
+
+<p>
+  <b>Phone1,:</b>
+  <%= @resident.phone1, %>
+</p>
+
+<p>
+  <b>Phone2,:</b>
+  <%= @resident.phone2, %>
+</p>
+
+<p>
+  <b>Email,:</b>
+  <%= @resident.email, %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @resident.location_id %>
+</p>
+
+<p>
+  <b>Photo:</b>
+  <%= @resident.photo %>
+</p>
+
+
+<%= link_to 'Edit', edit_resident_path(@resident) %> |
+<%= link_to 'Back', residents_path %>

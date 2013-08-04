@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  bill_id: 1
+  location_id: 1
+  status: MyString
+  start: 2013-08-04
+  labor: 1.5
+  materials: 1.5
+  description: MyText
+
+two:
+  bill_id: 1
+  location_id: 1
+  status: MyString
+  start: 2013-08-04
+  labor: 1.5
+  materials: 1.5
+  description: MyText

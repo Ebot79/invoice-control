@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  f_name: MyString
+  l_name: MyString
+  rate: 1.5
+  location_id: 1
+  photo: MyString
+
+two:
+  f_name: MyString
+  l_name: MyString
+  rate: 1.5
+  location_id: 1
+  photo: MyString
